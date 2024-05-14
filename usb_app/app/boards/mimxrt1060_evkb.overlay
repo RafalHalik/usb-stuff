@@ -1,0 +1,6 @@
+/ {
+	chosen {
+		/* Move data to internal SRAM */
+		zephyr,sram = &dtcm;
+	};
+};
