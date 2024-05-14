@@ -6,6 +6,10 @@
 # You can browse these options using the west targets menuconfig (terminal) or
 # guiconfig (GUI).
 
+
+config VE_USB
+	bool 
+
 menu "Zephyr"
     source "Kconfig.zephyr"
     endmenu
