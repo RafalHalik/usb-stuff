@@ -5,9 +5,11 @@
 # as the module Kconfig entry point (see zephyr/module.yml). You can browse
 # module options by going to Zephyr -> Modules in Kconfig.
 
-rsource "app/Kconfig"
-
-source "Kconfig.zephyr" # Does not compile without this line
-
 config VE_USB
 	bool 
+
+
+#rsource "app/Kconfig"
+
+#source "Kconfig.zephyr" # Does not compile without this line
+
