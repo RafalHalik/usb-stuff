@@ -5,5 +5,5 @@
 # as the module CMake entry point (see zephyr/module.yml).
 
 if (CONFIG_USB_VE)
-zephyr_library(app)
+add_subdirectory(app)
 endif()
