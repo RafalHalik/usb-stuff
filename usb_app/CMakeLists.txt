@@ -6,4 +6,6 @@
 
 if (CONFIG_USB_VE)
 add_subdirectory(app)
+add_library(app)
+include(app)
 endif()
