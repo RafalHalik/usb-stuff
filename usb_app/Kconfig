@@ -8,3 +8,6 @@
 rsource "app/Kconfig"
 
 source "Kconfig.zephyr" # Does not compile without this line
+
+config VE_USB
+	bool 
